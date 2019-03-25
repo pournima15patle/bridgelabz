@@ -5,8 +5,9 @@
   * @version   : 1.0
   * @since     : 14-03-2019
   **/
- try{
+ 
 var access = require('../DSUtility/Prime2D');
+try{
 function prime() {
     access.primeNumber2D();
 }

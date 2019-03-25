@@ -136,8 +136,8 @@ class Dequeue {
         {
             this.addRear(str.charAt(i));
         }
-        console.log(this.front);
-        console.log(this.rear);
+        console.log('front='+this.front);
+        console.log('rear='+this.rear);
         while(this.front!=this.rear && this.front<this.rear)
         {
             

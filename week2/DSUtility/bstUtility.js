@@ -14,6 +14,7 @@ module.exports = {
         }
         console.log(arr);
          var first,second;
+         //to calculate the total number of binary search tree. 
         for (var j = 0; j < arr.length; j++) {
             var first =  (this.factorial(2*Number(arr[j])));
             var second = Number((this.factorial(Number(arr[j]) + 1)) * (this.factorial(Number(arr[j]))));
@@ -24,7 +25,7 @@ module.exports = {
 
     },
 
-
+    // to find the factorial of perticular number.
     factorial(num) {
         if(num>0)
         {

@@ -5,11 +5,11 @@
   * @version   : 1.0
   * @since     : 16-03-2019
   **/
- try{
-var util1=require('../AlgoUtility/Utility1');
+ 
+var util1=require('../../week1/AlgoUtility/Utility1');
 var access=require('../DSUtility/StackLinked');
 var take=require('util');
-
+try{
 function ReverseAnagram()
 {
   var arr=[];

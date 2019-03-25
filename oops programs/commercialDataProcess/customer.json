@@ -1,0 +1,32 @@
+{
+    "customer": [
+        {
+            "name": "john",
+            "Id": "101",
+            "share": "50",
+            "amount": "20000",
+            "price": "2000"
+        },
+        {
+            "name": "samba",
+            "Id": "102",
+            "share": "20",
+            "amount": "10000",
+            "price": "1500"
+        },
+        {
+            "name": "dinga",
+            "Id": "103",
+            "share": "15",
+            "amount": "30100",
+            "price": "2000"
+        },
+        {
+            "name": "aashish",
+            "Id": "35",
+            "share": "100",
+            "amount": "100000",
+            "price": "2000"
+        }
+    ]
+}

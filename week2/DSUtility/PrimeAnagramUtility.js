@@ -3,7 +3,7 @@
  */
 var req = require('util');
 var utility = require('../DSUtility/Prime2D');
-var util1=require('../AlgoUtility/Utility1');
+var util1=require('../../week1/AlgoUtility/Utility1');
 module.exports = {
     primeAnag() {
         var arr = [];

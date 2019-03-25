@@ -4,15 +4,14 @@
   * @version   : 1.0
   * @since     : 14-03-2019
   **/
- try{
-var bst=require('../DSUtility/bstUtility');
+try {
+  var bst = require('../DSUtility/bstUtility');
 
-function binary(){
-bst.binarySearchTree();
+  function binary() {
+    bst.binarySearchTree();
+  }
+  binary();
 }
-binary();
- }
- catch(err)
- {
-     console.log(err);
- }
+catch (err) {
+  console.log(err);
+}

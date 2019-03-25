@@ -1,0 +1,24 @@
+{
+    "stock": [
+        {
+            "stock_name": "Bridgelabz",
+            "no_of_share": "200",
+            "share_price": "2000"
+        },
+        {
+            "stock_name": "capgemini",
+            "no_of_share": "250",
+            "share_price": "1500"
+        },
+        {
+            "stock_name": "Qspider",
+            "no_of_share": "150",
+            "share_price": "1500"
+        },
+        {
+            "stock_name": "Assenture",
+            "no_of_share": "300",
+            "share_price": "2000"
+        }
+    ]
+}

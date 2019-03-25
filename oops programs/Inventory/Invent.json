@@ -1,0 +1,50 @@
+{
+    "rice" : [{
+                "rice_name" : "Basmati",
+                "weight" : "50",
+                "price" : "150"
+             },
+             {
+                 "rice_name" : "hmt",
+                 "weight" : "40",
+                 "price" : "140"
+             },
+             {
+                 "rice_name" : "sonam",
+                 "weight" : "50",
+                 "price" :"120"
+             }],
+     
+    "wheat" : [{
+                "wheat_name": "Emmer",
+                "weight" : "40",
+                "price" : "80"
+               },
+               {
+                   "wheat_name" : "Macaroni ",
+                   "weight" : "20",
+                   "price" : "100"
+               },
+               {
+                   "wheat_name" : "Ashirwad",
+                   "weight" : " 50",
+                   "price" : "110"
+               }],
+
+    "pulses" : [{
+                 "pulse_name" : "grain",
+                 "weight" : "20",
+                 "price" : "150"
+                },
+                {
+                 "pulse_name" : "mung",
+                 "weight" : "5",
+                 "price" :"90"
+                },
+                {
+                  "pulse_name" : "lentil",
+                  "weight" : "10",
+                  "price" : "100"  
+                }]
+
+}

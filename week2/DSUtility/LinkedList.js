@@ -100,7 +100,7 @@ class LinkedList {
 
     }
 
-    pop(index) {
+    popIndex(index) {
         if (index < 0) {
             console.log("please, enter valid index");
             return false;
@@ -186,18 +186,7 @@ class LinkedList {
         return str;
     }
 
-   /* insertionSortInt(arr) {
-        for (var i = 1; i < arr.length; i++) {
-            var key = parseInt(arr[i]);
-            var j = i - 1;
-            while (j >= 0 && parseInt(arr[j]) > key) {
-                arr[j + 1] = parseInt(arr[j]);
-                j = j - 1;
-            }
-            arr[j + 1] = key;
-        }
-        return arr;
-    }
+   /* 
 
     addAscending() {
         var main = this.head;

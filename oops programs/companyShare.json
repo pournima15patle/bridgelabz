@@ -1,0 +1,36 @@
+{
+    "company": [
+        {
+            "name": "Assenture",
+            "symbol": "A",
+            "no_of_share": "200",
+            "share_price": "2000",
+            "amount": "100000",
+            "share": "100"
+        },
+        {
+            "name": "Capgemini",
+            "symbol": "C",
+            "no_of_share": "150",
+            "share_price": "1000",
+            "amount": "154000",
+            "share": "146"
+        },
+        {
+            "name": "Tech-M",
+            "symbol": "T",
+            "no_of_share": "250",
+            "share_price": "2000",
+            "amount": "158000",
+            "share": "246"
+        },
+        {
+            "name": "Tcs",
+            "symbol": "Tc",
+            "no_of_share": "300",
+            "share_price": "2000",
+            "amount": "209900",
+            "share": "295"
+        }
+    ]
+}

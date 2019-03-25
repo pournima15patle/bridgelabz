@@ -4,27 +4,29 @@
   * @version   : 1.0
   * @since     : 16-03-2019
   **/
- try{
+ 
 var access = require('../DSUtility/Stack');
 var access1 = require('../DSUtility/Queue');
-var util = require('../Utility/UtilityProgram');
-var util1 = require('../AlgoUtility/Utility1');
+var util = require('../../week1/Utility/UtilityProgram');
+var util1 = require('../../week1/AlgoUtility/Utility1');
 var readline = require('readline-sync');
 var take = require('util');
 
+try{
 function calender() {
     var month = +process.argv[2];
     var year = +process.argv[3];
 
+    //to calculate the starting day of month
     var answer = util1.dayOfWeek(Number(1), Number(month), Number(year));
     console.log(answer);
 
     var week = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     var dates = [0, 31, 28, 31, 30, 31, 31, 30, 31, 30, 31, 30, 31];
-    var months = ["", "Jan", "Feb", "March", "April", "May", "Jun", "July", "Augest", "Sept", "Oct", "Nov", "Dec"];
-
-    var leap = util.checkLeapYear(year);//To check year is leap or not
-    if (leap == true && months == 2) {
+  
+    var leap = util.checkLeapYear(year);
+     //to check the year is leap year or not if it is true then assign 29 to dates[2]
+    if (leap == true && month == 2) {
         dates[2] = 29;
     }
     var dayQue = new access1.Queue;
